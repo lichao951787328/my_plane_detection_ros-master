@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/lichao/catkin_plane_detection/src/my_plane_detection_ros-master/build/devel/setup.sh

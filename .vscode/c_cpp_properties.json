@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/include",
+                "/opt/ros/noetic/include",
+                "/usr/include/opencv4",
+                "/usr/include/pcl-1.10",
+                "/usr/include/eigen3",
+                "/usr/include/vtk-7.1",
+                "/usr/local/include",
+                "/usr/include/python3.8",
+                "${workspaceFolder}/include/libxl"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-clang-x64"
+        }
+    ],
+    "version": 4
+}

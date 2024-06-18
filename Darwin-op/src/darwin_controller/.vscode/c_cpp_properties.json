@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/lichao/YouYi_Nav/devel/include/**",
+        "/home/lichao/catkin_realsense_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/lichao/YouYi_Nav/src/navigation/client_and_server/include/**",
+        "/home/lichao/YouYi_Nav/src/navigation/commen_msg/include/**",
+        "/home/lichao/Darwin-op/src/darwin_controller/include/**",
+        "/home/lichao/catkin_realsense_ws/src/realsense-ros/realsense2_camera/include/**",
+        "/home/lichao/YouYi_Nav/src/simplified_model/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

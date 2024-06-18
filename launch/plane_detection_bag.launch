@@ -1,0 +1,5 @@
+<launch>
+  <!-- <node pkg="rosbag" type="play" name="rosbag" args="/home/humanoid/work/plane_detection/catkin_plane_detection_test_ws/src/plane_detection/bag/2022-04-27-20-28-21D435I.bag"/> -->
+  <node name="plane_detection_node" pkg="plane_detection" type="test_segmentation" output="screen" />
+  <node name="PC_processing" pkg="rviz" type="rviz" args="-d $(find plane_detection)/config/show_PC_processing.rviz"  />
+</launch>
