@@ -70,9 +70,20 @@
     "bit": "cpp",
     "codecvt": "cpp",
     "filesystem": "cpp",
-    "geometry": "cpp"
+    "geometry": "cpp",
+    "plyconfig.json": "jsonc"
   },
   "python.autoComplete.extraPaths": [
+    "/home/humanoid/catkin_cartographer_ws/install_isolated/lib/python3/dist-packages",
+    "/home/humanoid/catkin_apriltag_ws/devel/lib/python3/dist-packages",
+    "/home/humanoid/catkin_ar_ws/devel/lib/python3/dist-packages",
+    "/home/humanoid/catkin_vigir_ws/devel/lib/python3/dist-packages",
+    "/home/humanoid/catkin_bhr_ws/devel/lib/python3/dist-packages",
+    "/home/humanoid/catkin_realsense_ws/devel/lib/python3/dist-packages",
+    "/opt/ros/noetic/lib/python3/dist-packages",
+    ".../build/bindings/python"
+  ],
+  "python.analysis.extraPaths": [
     "/home/humanoid/catkin_cartographer_ws/install_isolated/lib/python3/dist-packages",
     "/home/humanoid/catkin_apriltag_ws/devel/lib/python3/dist-packages",
     "/home/humanoid/catkin_ar_ws/devel/lib/python3/dist-packages",
